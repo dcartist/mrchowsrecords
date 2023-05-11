@@ -29,7 +29,6 @@ width: 30%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
-    /* gap: 15px; */
 }
 
 nav a{
@@ -96,4 +95,20 @@ nav ul li {
     max-width: 300px;
     border-top: 1px solid #000;
     padding-top: 20px;
+}
+
+.contactInfo img{
+    width: 80%;
+}
+
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
+.contactInfo a{
+font-size: 20px;
+text-decoration: none;
+color: #000;
+padding-bottom: 10px;
 }
