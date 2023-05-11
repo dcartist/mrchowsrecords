@@ -53,8 +53,15 @@ color: #000;
     font-family: 'Abril Fatface', cursive;
     font-size: 80px;
     margin-bottom: 50px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     border-bottom: 1px solid #000;
+}
+#RecordsBackground{
+    background: url(../images/redRecord.jpg);
+  height: 100%;
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #RecordsBackground1{
     background: url(../images/yellowRecord.jpg);
@@ -75,11 +82,13 @@ color: #000;
 nav ul {
 display: flex;
 list-style-type: none;
-justify-content: center;
+justify-content: space-evenly;
+width: 50%;
+margin: auto;
 }
 
 nav ul li {
-    margin: 30px 10px 0 10px;
+    padding-top: 10px;
 }
 
 #records li{
