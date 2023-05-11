@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.recordBoxes{
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  #intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #intro img {
+width: 50%;
+  }
+
+#records{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    gap: 5px;
+}
