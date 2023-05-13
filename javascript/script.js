@@ -4,6 +4,8 @@ console.log(recordsCollection)
 function insertRecord(information){
     console.log(information.release.artist)
 const newListingItem = document.createElement('li')
+// add data-aos="zoom-in" to the li element
+newListingItem.setAttribute('data-aos', 'zoom-in')
 newListingItem.innerHTML +=  `<h3> ${information.release.artist} </h3> <p class="recordParagraph"> ${information.release.description} </p> <a href="${information.uri}" target="_blank" rel="noopener noreferrer" class="recordButton"> for more information <i class="bi bi-box-arrow-in-up-right"></i> </a> `
 document.getElementById('records').appendChild(newListingItem)
 }
